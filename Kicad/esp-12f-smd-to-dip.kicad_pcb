@@ -270,7 +270,7 @@
       (net 3 "cs") (pinfunction "Pin_9") (pintype "passive") (tstamp cbfccdf5-140f-43a9-a92a-9c375134bb12))
     (pad "10" thru_hole oval (at 0 -22.86 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "tx") (pinfunction "Pin_10") (pintype "passive") (tstamp 00340263-1077-4cc9-bbea-3525d2096c5f))
-    (pad "11" thru_hole circle (at 0 -25.4 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "11" thru_hole oval (at 0 -25.4 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "rx") (pinfunction "Pin_11") (pintype "passive") (tstamp fbd9b0fd-7e90-44b8-8b6c-ac71d4b44e0a))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x11_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -309,7 +309,7 @@
     (fp_line (start -0.635 1.27) (end 1.27 1.27) (layer "B.Fab") (width 0.1) (tstamp 851a6446-1efe-41e2-959c-32987292a51d))
     (fp_line (start 1.27 1.27) (end 1.27 -26.67) (layer "B.Fab") (width 0.1) (tstamp c152579a-5083-4366-a928-ef3d44f96757))
     (fp_line (start -1.27 -26.67) (end -1.27 0.635) (layer "B.Fab") (width 0.1) (tstamp c66b72e7-a84e-40f0-95ce-0aa4831d0810))
-    (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask "B.SilkS")
+    (pad "1" thru_hole oval (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 17 "gpio16") (pinfunction "Pin_1") (pintype "passive") (tstamp 88ff0b87-fd68-4155-923c-23230a42a7e9))
     (pad "2" thru_hole oval (at 0 -2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 21 "gpio15") (pinfunction "Pin_2") (pintype "passive") (tstamp 5f4c9b88-940e-424a-b37b-7c21791efb1b))
